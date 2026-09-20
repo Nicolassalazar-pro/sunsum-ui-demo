@@ -1,16 +1,15 @@
-# SunSum UI demos
+# SunSum Sunroom preview
 
-[Open both demos](https://nicolassalazar-pro.github.io/sunsum-ui-demo/)
+[Open Sunroom](https://nicolassalazar-pro.github.io/sunsum-ui-demo/)
 
-Two interactive community-solar interface concepts:
+An interactive community-solar preview in the original SunSum navy, gold, and
+community-green styling, with light and dark themes. The base URL opens Sunroom
+directly.
 
-- [Sunroom](https://nicolassalazar-pro.github.io/sunsum-ui-demo/#/concepts/sunroom?role=site-owner): guided community-solar workflows in the original SunSum navy, gold, and community-green styling, with light and dark themes.
-- [Gridline](https://nicolassalazar-pro.github.io/sunsum-ui-demo/#/concepts/gridline?role=operator): dark, structured, portfolio-focused.
+Sunroom includes site-owner, operator, and investor views. No account or password
+is required to open the preview.
 
-Both concepts include site-owner, operator, and investor views. No account or
-password is required to open the demos.
-
-## Updated Sunroom workflows
+## Sunroom workflows
 
 - Revisitable profile setup, resumable site intake, linked project maps/lists,
   and scoped owner tasks and document metadata.
@@ -21,9 +20,12 @@ password is required to open the demos.
 - Editable project briefings and assessment reports, snapshot-based review,
   and real local HTML/CSV downloads, including scoped portfolio summaries.
 
-Fresh or explicitly reset scenarios contain 50 fictional records, with smaller
-role-specific subsets. Existing saved browser progress is preserved rather than
-automatically expanded. Both concepts share that browser-local scenario.
+Fresh or explicitly reset scenarios contain **50 fictional records**, with
+**six owner-visible examples** and **47 initially published investor projects**.
+Existing saved browser progress is preserved rather than
+automatically expanded. Valid v1 saves migrate to the synthetic v2 format with
+the original payload retained for recovery. All three roles share that
+browser-local scenario.
 
 Responsive navigation, keyboard controls, short state transitions, and
 reduced-motion alternatives keep the same workflows usable across screen sizes.
@@ -37,8 +39,8 @@ original uploaded files, signed agreements, native Word files, or editable PDFs.
 
 No operational backend connections are configured. Real sign-in, provider
 assessments, live maps, utility retrieval, investments, payments, and recipient
-delivery are unavailable. Guidance is scripted and typed; there is no microphone
-capture or live AI service. Selected-project financial outcomes remain
+delivery are unavailable. Guidance is scripted and typed; there is no app
+speech, microphone capture, or live AI service. Selected-project financial outcomes remain
 uncalculated; existing comparison scenarios are illustrative, not investment
 advice or measured performance.
 
@@ -51,9 +53,14 @@ This repository contains only the compiled static demo, screenshots, and license
 notices. It does not contain the development source, private project documents,
 or conversation exports.
 
-GitHub Pages serves the root of the `main` branch. Relative assets and hash-based
-routes allow both concepts to run under the repository URL. `.nojekyll` keeps
-the compiled files unchanged.
+GitHub Pages serves the root of the `main` branch. The unchanged repository URL
+opens Sunroom directly; relative assets and hash-based routes work under that
+same hosting path. `.nojekyll` keeps the compiled files unchanged.
+
+The original public landing (`#/`), create-profile (`#/join`), and site-owner
+dashboard (`#/dashboard/site-owner`) routes remain available. Legacy
+`#/concepts` and `#/concepts/gridline` links redirect to Sunroom, preserving role,
+project, and workflow context.
 
 The upstream SunSum project is
 [pocketcalculator/sunsum-community-solar-virtual-power-plant](https://github.com/pocketcalculator/sunsum-community-solar-virtual-power-plant).
