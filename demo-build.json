@@ -1,0 +1,15 @@
+{
+  "mode": "SYNTHETIC_DEMO_ONLY",
+  "sourceRevision": "faccb47e7ba625f52ef6266fe7e7216b8adca59d",
+  "sourceClean": true,
+  "files": {
+    "LICENSE.txt": "c12a553645b76842106b9257cb05d0d20e34b440e8ea82b0b127795f04aaa880",
+    "THIRD-PARTY-LICENSES.txt": "be59dbe9ddbb9a7b814e8cc5c123efe62d89eaa7cb09200cb70db9338893b120",
+    "assets/index-CHQfAUK6.js": "14ee6899fc100bbeba9bec95bc6a916f7bfad6eb2396ea452c4e2ef9cd17eabb",
+    "assets/index-qkm-znib.css": "bda99a088c43ca76b08669cde99f6bb967c9e98f9b681201284c36399252f027",
+    "design-previews/sunroom-mobile.png": "16475f8ad3ba65fe016408596e979c3cb8b91afea817c59aeb59aa693e0c2ae4",
+    "design-previews/sunroom.png": "3e956c21b6eece767856f175462c559125cd298de4f786aaecc63def793043a2",
+    "icon.svg": "c8a8f54226372977afbc838ff3c3f0b09b06a0e85b5d02e9c9782805f98f5b41",
+    "index.html": "22cc868ea88e3a8c28b8ae03108875f9b757a4379ddfbe7e4765bced032631e5"
+  }
+}

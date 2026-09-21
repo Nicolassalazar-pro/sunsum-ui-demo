@@ -1,67 +1,51 @@
-# SunSum Sunroom preview
+# SunSum Sunroom demo
 
-[Open Sunroom](https://nicolassalazar-pro.github.io/sunsum-ui-demo/)
+[Open the demo](https://nicolassalazar-pro.github.io/sunsum-ui-demo/) |
+[Source PR #62](https://github.com/pocketcalculator/sunsum-community-solar-virtual-power-plant/pull/62) |
+[Connect and deploy](https://github.com/pocketcalculator/sunsum-community-solar-virtual-power-plant/blob/faccb47e7ba625f52ef6266fe7e7216b8adca59d/docs/ws1/connection-and-deployment-guide.md)
 
-An interactive community-solar preview in the original SunSum navy, gold, and
-community-green styling, with light and dark themes. The base URL opens Sunroom
-directly.
+The unchanged URL opens the **synthetic Sunroom workspace**. No account or
+password is required. The original SunSum navy, gold and community-green
+styling includes light/dark themes, keyboard access and reduced-motion support.
 
-Sunroom includes site-owner, operator, and investor views. No account or password
-is required to open the preview.
+## Explore the experience
 
-## Sunroom workflows
+- Site-owner, operator and investor workflows, including action-first work,
+  linked map/list selection, adjacent guidance and scoped document history.
+- Filters, lifecycle sorting, 25/50/100-row pages, card/list parity and return
+  continuity through details, documents and reports.
+- Optional learning and revisitable profiles, nonbinding demo interest, manual
+  example assessments, editable drafts and local HTML/CSV exports.
+- Public Need, Opportunity and Impact pages, plus VPP relationship education.
+  Start at `#/`, `#/need`, `#/opportunity`, `#/impact` or `#/join`.
 
-- Revisitable profile setup, resumable site intake, linked project maps/lists,
-  and scoped owner tasks and document metadata.
-- Action-first operator review, separate acceptance/stage/publication actions,
-  manual example assessments with history, and editable private demo notes.
-- Investor filters and preferences, illustrative comparison scenarios,
-  nonbinding interest and withdrawal, and separate minimal owner notices.
-- Editable project briefings and assessment reports, snapshot-based review,
-  and real local HTML/CSV downloads, including scoped portfolio summaries.
+Fresh scenarios contain **50 fictional records**. Existing browser-local
+progress and smaller saved scenarios remain intact; valid legacy saves retain
+their migration/recovery path. Use fictional details only.
 
-Fresh or explicitly reset scenarios contain **50 fictional records**, with
-**six owner-visible examples** and **47 initially published investor projects**.
-Existing saved browser progress is preserved rather than
-automatically expanded. Valid v1 saves migrate to the synthetic v2 format with
-the original payload retained for recovery. All three roles share that
-browser-local scenario.
+## Demo versus the connected application
 
-Responsive navigation, keyboard controls, short state transitions, and
-reduced-motion alternatives keep the same workflows usable across screen sizes.
+This Pages site makes no live service calls. Its role selector is illustrative,
+not an authorization boundary. Files are metadata or generated demo exports,
+not uploaded originals. Estimates are not measured results or investment advice.
+There is no real sign-in, live map provider, paid assessment, financial execution,
+messaging, microphone, speech or live AI generation.
 
-## Demo boundaries
+The separate Next application in the source PR provides `/app` for **existing,
+authorized live reads only**. It needs the service owner's legitimate identity
+and configuration handoff. It never uses this demo as a failed-read fallback,
+and frontend workflow writes are not implemented. Azure deployment is separate.
 
-All project data and estimates are fictional. Changes stay in the viewer's
-browser. Files are represented by metadata only; no original documents are
-read or uploaded. HTML/CSV exports contain locally generated demo content, not
-original uploaded files, signed agreements, native Word files, or editable PDFs.
+## Reproducible release
 
-No operational backend connections are configured. Real sign-in, provider
-assessments, live maps, utility retrieval, investments, payments, and recipient
-delivery are unavailable. Guidance is scripted and typed; there is no app
-speech, microphone capture, or live AI service. Selected-project financial outcomes remain
-uncalculated; existing comparison scenarios are illustrative, not investment
-advice or measured performance.
+Source revision: `faccb47e7ba625f52ef6266fe7e7216b8adca59d`.
+`demo-build.json` identifies the clean synthetic build and its asset hashes.
+[Release bundles and operator kit](https://github.com/pocketcalculator/sunsum-community-solar-virtual-power-plant/actions/runs/35609270122)
+include application/demo ZIPs, connection instructions and an integrity manifest.
 
-Use fictional details. The role selector demonstrates the interface and is not
-an authorization boundary.
+This repository contains only compiled demo assets, intentional synthetic
+screenshots and license notices. GitHub Pages serves `main`; `.nojekyll`,
+relative assets and hash routes preserve the existing hosting path. Legacy
+workspace hashes remain compatibility aliases, not another design.
 
-## Repository and hosting
-
-This repository contains only the compiled static demo, screenshots, and license
-notices. It does not contain the development source, private project documents,
-or conversation exports.
-
-GitHub Pages serves the root of the `main` branch. The unchanged repository URL
-opens Sunroom directly; relative assets and hash-based routes work under that
-same hosting path. `.nojekyll` keeps the compiled files unchanged.
-
-The original public landing (`#/`), create-profile (`#/join`), and site-owner
-dashboard (`#/dashboard/site-owner`) routes remain available. Legacy
-`#/concepts` and `#/concepts/gridline` links redirect to Sunroom, preserving role,
-project, and workflow context.
-
-The upstream SunSum project is
-[pocketcalculator/sunsum-community-solar-virtual-power-plant](https://github.com/pocketcalculator/sunsum-community-solar-virtual-power-plant).
-See `LICENSE.txt` and `THIRD-PARTY-LICENSES.txt` for attribution and licenses.
+See `LICENSE.txt` and `THIRD-PARTY-LICENSES.txt` for attribution.
