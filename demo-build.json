@@ -1,15 +1,19 @@
 {
   "mode": "SYNTHETIC_DEMO_ONLY",
-  "sourceRevision": "faccb47e7ba625f52ef6266fe7e7216b8adca59d",
+  "sourceRevision": "2711ccce5e086c8ccdf065aadf36f9013ad51aad",
   "sourceClean": true,
   "files": {
+    "AUDIO-CREDITS.txt": "3addfd4db04e8136ddae09d303d9e56e41642102c516ed5fc8814d4028a1920c",
     "LICENSE.txt": "c12a553645b76842106b9257cb05d0d20e34b440e8ea82b0b127795f04aaa880",
     "THIRD-PARTY-LICENSES.txt": "be59dbe9ddbb9a7b814e8cc5c123efe62d89eaa7cb09200cb70db9338893b120",
-    "assets/index-CHQfAUK6.js": "14ee6899fc100bbeba9bec95bc6a916f7bfad6eb2396ea452c4e2ef9cd17eabb",
-    "assets/index-qkm-znib.css": "bda99a088c43ca76b08669cde99f6bb967c9e98f9b681201284c36399252f027",
+    "assets/index-BUnAh4I-.css": "3513ff3cf6929c36e6bb4da6a53a1154b7c233680451da7ec00f980ff19f39db",
+    "assets/index-CXjCf0Sz.js": "271cd0e93dc030a02532e79801b5919d97e9bc5cb8372e26e16c6b5b9853ba27",
+    "audio/impact.mp3": "5ff37d5f729bd037789c9c529fcd29439ae2a5927685741cb82b2e64beedb6d3",
+    "audio/need.mp3": "5d8ed04c82d1d8f47acd59e8ac757e29e33fef6b5a561d1acacee424ede5ef7c",
+    "audio/opportunity.mp3": "ffa7a0f689024dc900b11acb8f73532e72148cd1f529c23bca4aa5d34d2c9c77",
     "design-previews/sunroom-mobile.png": "16475f8ad3ba65fe016408596e979c3cb8b91afea817c59aeb59aa693e0c2ae4",
     "design-previews/sunroom.png": "3e956c21b6eece767856f175462c559125cd298de4f786aaecc63def793043a2",
     "icon.svg": "c8a8f54226372977afbc838ff3c3f0b09b06a0e85b5d02e9c9782805f98f5b41",
-    "index.html": "22cc868ea88e3a8c28b8ae03108875f9b757a4379ddfbe7e4765bced032631e5"
+    "index.html": "90223c3aa39605cb47fc46720d1b2384a6a1b131868e47a2b5064d3b84a30fd0"
   }
 }
